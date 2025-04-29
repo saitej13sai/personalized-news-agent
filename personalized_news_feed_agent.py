@@ -13,7 +13,7 @@ import requests
 import pandas as pd
 import random
 
-API_KEY = '88539f10ee044627a077255d12016436'  # Your NewsAPI key here
+API_KEY = '88539f10ee044627a077255xxxxxxx'  # Your NewsAPI key here
 
 def fetch_news():
     url = f"https://newsapi.org/v2/top-headlines?language=en&pageSize=10&apiKey={API_KEY}"
